@@ -1,0 +1,167 @@
+Problem:    africa
+Rows:       46
+Columns:    22
+Non-zeros:  528
+Status:     OPTIMAL
+Objective:  FuelCost = 84572.75 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MinFuelInTank[Algeria1]
+                    B              0      -563.333               
+     2 MinFuelInTank[Algeria2]
+                    B              0      -43.3333               
+     3 MinFuelInTank[Algeria3]
+                    NL       466.667       466.667                         1.5 
+     4 MinFuelInTank[Algeria4]
+                    B           1350       1116.67               
+     5 MinFuelInTank[Algeria5]
+                    B           2000       1696.67               
+     6 MinFuelInTank[Algeria6]
+                    NL       2286.67       2286.67                        0.75 
+     7 MinFuelInTank[Niger1]
+                    B           3170       2676.67               
+     8 MinFuelInTank[Niger2]
+                    B           3560       3196.67               
+     9 MinFuelInTank[Nigeria1]
+                    B           4080       3776.67               
+    10 MinFuelInTank[Nigeria2]
+                    NL       4296.67       4296.67                         1.5 
+    11 MinFuelInTank[Cameroon]
+                    B           5180       4616.67               
+    12 MinFuelInTank[Gabon]
+                    B           5500       5066.67               
+    13 MinFuelInTank[Congo1]
+                    NL       5595.67       5595.67                        3.75 
+    14 MinFuelInTank[Congo2]
+                    B           6479       6106.67               
+    15 MinFuelInTank[Angola1]
+                    NL       6556.67       6556.67                        0.75 
+    16 MinFuelInTank[Angola2]
+                    B           7440       7076.67               
+    17 MinFuelInTank[Angola3]
+                    NL       7526.67       7526.67                        0.75 
+    18 MinFuelInTank[Namibia1]
+                    B           8410       7846.67               
+    19 MinFuelInTank[Namibia2]
+                    B           8730       8366.67               
+    20 MinFuelInTank[Namibia3]
+                    NL       8886.67       8886.67                         1.5 
+    21 MinFuelInTank[SouthAfrica1]
+                    B           9770       9466.67               
+    22 MinFuelInTank[SouthAfrica2]
+                    NL       9786.67       9786.67                         1.5 
+    23 PreventFuelOverload[Algeria1]
+                    B              0                          24 
+    24 PreventFuelOverload[Algeria2]
+                    B             35                          63 
+    25 PreventFuelOverload[Algeria3]
+                    NU        101.25                      101.25           -10 
+    26 PreventFuelOverload[Algeria4]
+                    NU           150                         150           -20 
+    27 PreventFuelOverload[Algeria5]
+                    B          171.5                       193.5 
+    28 PreventFuelOverload[Algeria6]
+                    NU        237.75                      237.75           -30 
+    29 PreventFuelOverload[Niger1]
+                    NU           267                         267           -10 
+    30 PreventFuelOverload[Niger2]
+                    NU           306                         306           -10 
+    31 PreventFuelOverload[Nigeria1]
+                    B         322.25                       349.5 
+    32 PreventFuelOverload[Nigeria2]
+                    NU         388.5                       388.5           -30 
+    33 PreventFuelOverload[Cameroon]
+                    NU         412.5                       412.5           -10 
+    34 PreventFuelOverload[Gabon]
+                    B        419.675                      446.25 
+    35 PreventFuelOverload[Congo1]
+                    NU       485.925                     485.925           -20 
+    36 PreventFuelOverload[Congo2]
+                    B         491.75                      524.25 
+    37 PreventFuelOverload[Angola1]
+                    NU           558                         558           -10 
+    38 PreventFuelOverload[Angola2]
+                    B          564.5                         597 
+    39 PreventFuelOverload[Angola3]
+                    NU        630.75                      630.75           -20 
+    40 PreventFuelOverload[Namibia1]
+                    NU        654.75                      654.75           -10 
+    41 PreventFuelOverload[Namibia2]
+                    B          666.5                      693.75 
+    42 PreventFuelOverload[Namibia3]
+                    NU        732.75                      732.75           -10 
+    43 PreventFuelOverload[SouthAfrica1]
+                    B            734                      776.25 
+    44 PreventFuelOverload[SouthAfrica2]
+                    B            755                      800.25 
+    45 EnoughFuelToDestination
+                    NL       10066.7       10066.7                           9 
+    46 FuelCost     B        84572.7                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 RefuelInLiters[Algeria1]
+                    NL             0             0                          10 
+     2 RefuelInLiters[Algeria2]
+                    B             35             0               
+     3 RefuelInLiters[Algeria3]
+                    B          66.25             0               
+     4 RefuelInLiters[Algeria4]
+                    B          48.75             0               
+     5 RefuelInLiters[Algeria5]
+                    B           21.5             0               
+     6 RefuelInLiters[Algeria6]
+                    B          66.25             0               
+     7 RefuelInLiters[Niger1]
+                    B          29.25             0               
+     8 RefuelInLiters[Niger2]
+                    B             39             0               
+     9 RefuelInLiters[Nigeria1]
+                    B          16.25             0               
+    10 RefuelInLiters[Nigeria2]
+                    B          66.25             0               
+    11 RefuelInLiters[Cameroon]
+                    B             24             0               
+    12 RefuelInLiters[Gabon]
+                    B          7.175             0               
+    13 RefuelInLiters[Congo1]
+                    B          66.25             0               
+    14 RefuelInLiters[Congo2]
+                    B          5.825             0               
+    15 RefuelInLiters[Angola1]
+                    B          66.25             0               
+    16 RefuelInLiters[Angola2]
+                    B            6.5             0               
+    17 RefuelInLiters[Angola3]
+                    B          66.25             0               
+    18 RefuelInLiters[Namibia1]
+                    B             24             0               
+    19 RefuelInLiters[Namibia2]
+                    B          11.75             0               
+    20 RefuelInLiters[Namibia3]
+                    B          66.25             0               
+    21 RefuelInLiters[SouthAfrica1]
+                    B           1.25             0               
+    22 RefuelInLiters[SouthAfrica2]
+                    B             21             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-12 on row 20
+        max.rel.err = 1.02e-16 on row 20
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

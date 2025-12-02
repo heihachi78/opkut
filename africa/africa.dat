@@ -1,0 +1,86 @@
+set PetrolStation :=
+    Algeria1 
+    Algeria2 
+    Algeria3 
+    Algeria4 
+    Algeria5 
+    Algeria6 
+    Niger1 
+    Niger2 
+    Nigeria1 
+    Nigeria2 
+    Cameroon 
+    Gabon 
+    Congo1 
+    Congo2 
+    Angola1 
+    Angola2 
+    Angola3 
+    Namibia1 
+    Namibia2 
+    Namibia3 
+    SouthAfrica1 
+    SouthAfrica2
+;
+
+param DistanceInKm :=
+    Algeria1         320
+    Algeria2         840
+    Algeria3        1350
+    Algeria4        2000
+    Algeria5        2580
+    Algeria6        3170
+    Niger1          3560
+    Niger2          4080
+    Nigeria1        4660
+    Nigeria2        5180
+    Cameroon        5500
+    Gabon           5950
+    Congo1          6479
+    Congo2          6990
+    Angola1         7440
+    Angola2         7960
+    Angola3         8410
+    Namibia1        8730
+    Namibia2        9250
+    Namibia3        9770
+    SouthAfrica1   10350
+    SouthAfrica2   10670
+;
+
+param PetrolPricePerLiter := 
+    Algeria1     100
+    Algeria2      90
+    Algeria3      70
+    Algeria4      80
+    Algeria5     100
+    Algeria6      90
+    Niger1       120
+    Niger2       130
+    Nigeria1     140
+    Nigeria2     120
+    Cameroon     150
+    Gabon        160
+    Congo1       110
+    Congo2       130
+    Angola1      120
+    Angola2      130
+    Angola3      120
+    Namibia1     140
+    Namibia2     150
+    Namibia3     130
+    SouthAfrica1 140
+    SouthAfrica2 120
+;
+
+param FuelConsumptionPerKm := 0.075;
+
+param MaxFuelCapacityInLiters := 70;
+
+param MinFuelRemainingInKm := 50;
+
+param IntialFuelInLiters := 70;
+
+param TotalDistance := 11000;
+
+end;

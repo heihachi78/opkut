@@ -1,0 +1,1 @@
+glpsol -m africa.mod -d africa.dat -o africa.out
