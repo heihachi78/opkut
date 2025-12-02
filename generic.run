@@ -1,1 +1,1 @@
-glpsol -m generic.m -d generic.dat -o generic.out
+glpsol -m generic.mod -d generic.dat -o generic.out

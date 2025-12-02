@@ -1,1 +1,1 @@
-glpsol -m lp_task.m -o lp_task.out
+glpsol -m lp_task.mod -o lp_task.out

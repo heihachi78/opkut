@@ -1,1 +1,1 @@
-glpsol -m helloworld.m -o helloworld.out
+glpsol -m helloworld.mod -o helloworld.out
