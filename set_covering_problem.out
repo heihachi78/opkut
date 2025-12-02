@@ -1,4 +1,4 @@
-Problem:    gyak2
+Problem:    set_covering_problem
 Rows:       8
 Columns:    5 (5 integer, 5 binary)
 Non-zeros:  25

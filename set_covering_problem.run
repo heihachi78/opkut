@@ -1,0 +1,1 @@
+glpsol -m set_covering_problem.m -d set_covering_problem.dat -o set_covering_problem.out
