@@ -1,0 +1,1 @@
+glpsol -m gmpl_example.mod -o gmpl_example.out
