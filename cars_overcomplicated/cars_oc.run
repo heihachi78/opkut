@@ -1,0 +1,1 @@
+glpsol -m cars_oc.mod -o cars_oc.out
