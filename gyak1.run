@@ -1,1 +1,0 @@
-glpsol -m gyak1.mod -d gyak1.dat -o gyak1.out

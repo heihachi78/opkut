@@ -1,0 +1,1 @@
+glpsol -m maros_konyv_pelda.mod -d maros_konyv_pelda.dat -o maros_konyv_pelda.out
