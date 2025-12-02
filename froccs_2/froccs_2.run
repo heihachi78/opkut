@@ -1,0 +1,1 @@
+glpsol -m froccs_2.mod -o froccs_2.out

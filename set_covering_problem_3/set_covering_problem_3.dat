@@ -1,0 +1,23 @@
+set Festival := F1 F2 F3 F4 F5;
+set Band := Haggard Stratovarius Epica Dalriada Apocalyptica Liva Eluveitie;
+
+param Price :=
+    F1   100
+    F2   250
+    F3  1050 
+    F4  2000
+    F5  2500
+;
+
+param Perform :
+                F1 F2 F3 F4 F5 :=
+Haggard          1  0  1  1  0
+Stratovarius     1  1  1  0  1
+Epica            1  1  0  1  1
+Dalriada         0  0  1  0  1
+Apocalyptica     0  0  0  1  0
+Liva             0  1  1  1  1
+Eluveitie        0  0  1  0  1
+;
+
+end;
