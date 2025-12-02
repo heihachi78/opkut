@@ -1,0 +1,32 @@
+set Froccs := Kisfroccs Nagyfroccs Hosszulepes Hazmester Vicehazmester Krudyfroccs Soherfroccs Puskasfroccs;
+set Alapanyag := Bor Szoda;
+
+param Hozzavalok :
+                Bor Szoda :=
+Kisfroccs         1     1
+Nagyfroccs        2     1
+Hosszulepes       1     2
+Hazmester         3     2
+Vicehazmester     2     3
+Krudyfroccs       9     1
+Soherfroccs       1     9
+Puskasfroccs      6     3
+;
+
+param Ar :=
+    Kisfroccs      110
+    Nagyfroccs     200
+    Hosszulepes    120
+    Hazmester      260
+    Vicehazmester  200
+    Krudyfroccs    800
+    Soherfroccs    200
+    Puskasfroccs   550
+;
+
+param Keszlet :=
+    Bor   1000
+    Szoda 1500
+;
+
+end;

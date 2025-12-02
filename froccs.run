@@ -1,0 +1,1 @@
+glpsol -m froccs.m -d froccs.dat -o froccs.out
