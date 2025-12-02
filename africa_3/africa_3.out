@@ -1,0 +1,206 @@
+Problem:    africa_3
+Rows:       46
+Columns:    44
+Non-zeros:  341
+Status:     OPTIMAL
+Objective:  TotalCost = 84572.75 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 set_fuelAtArrival[Algeria1]
+                    NS            46            46             =         < eps
+     2 set_fuelAtArrival[Algeria2]
+                    NS             7             7             =         < eps
+     3 set_fuelAtArrival[Algeria3]
+                    NS        -31.25        -31.25             =           -10 
+     4 set_fuelAtArrival[Algeria4]
+                    NS           -80           -80             =            20 
+     5 set_fuelAtArrival[Algeria5]
+                    NS        -123.5        -123.5             =         < eps
+     6 set_fuelAtArrival[Algeria6]
+                    NS       -167.75       -167.75             =            20 
+     7 set_fuelAtArrival[Niger1]
+                    NS          -197          -197             =            10 
+     8 set_fuelAtArrival[Niger2]
+                    NS          -236          -236             =            10 
+     9 set_fuelAtArrival[Nigeria1]
+                    NS        -279.5        -279.5             =         < eps
+    10 set_fuelAtArrival[Nigeria2]
+                    NS        -318.5        -318.5             =            10 
+    11 set_fuelAtArrival[Cameroon]
+                    NS        -342.5        -342.5             =            10 
+    12 set_fuelAtArrival[Gabon]
+                    NS       -376.25       -376.25             =         < eps
+    13 set_fuelAtArrival[Congo1]
+                    NS      -415.925      -415.925             =           -30 
+    14 set_fuelAtArrival[Congo2]
+                    NS       -454.25       -454.25             =         < eps
+    15 set_fuelAtArrival[Angola1]
+                    NS          -488          -488             =         < eps
+    16 set_fuelAtArrival[Angola2]
+                    NS          -527          -527             =         < eps
+    17 set_fuelAtArrival[Angola3]
+                    NS       -560.75       -560.75             =            10 
+    18 set_fuelAtArrival[Namibia1]
+                    NS       -584.75       -584.75             =            10 
+    19 set_fuelAtArrival[Namibia2]
+                    NS       -623.75       -623.75             =         < eps
+    20 set_fuelAtArrival[Namibia3]
+                    NS       -662.75       -662.75             =           -10 
+    21 set_fuelAtArrival[SouthAfrica1]
+                    NS       -706.25       -706.25             =         < eps
+    22 set_fuelAtArrival[SouthAfrica2]
+                    NS       -730.25       -730.25             =           -20 
+    23 Can_not_overfill[Algeria1]
+                    B             46                          70 
+    24 Can_not_overfill[Algeria2]
+                    B             42                          70 
+    25 Can_not_overfill[Algeria3]
+                    NU            70                          70           -10 
+    26 Can_not_overfill[Algeria4]
+                    NU            70                          70           -20 
+    27 Can_not_overfill[Algeria5]
+                    B             48                          70 
+    28 Can_not_overfill[Algeria6]
+                    NU            70                          70           -30 
+    29 Can_not_overfill[Niger1]
+                    NU            70                          70           -10 
+    30 Can_not_overfill[Niger2]
+                    NU            70                          70           -10 
+    31 Can_not_overfill[Nigeria1]
+                    B          42.75                          70 
+    32 Can_not_overfill[Nigeria2]
+                    NU            70                          70           -30 
+    33 Can_not_overfill[Cameroon]
+                    NU            70                          70           -10 
+    34 Can_not_overfill[Gabon]
+                    B         43.425                          70 
+    35 Can_not_overfill[Congo1]
+                    NU            70                          70           -20 
+    36 Can_not_overfill[Congo2]
+                    B           37.5                          70 
+    37 Can_not_overfill[Angola1]
+                    NU            70                          70           -10 
+    38 Can_not_overfill[Angola2]
+                    B           37.5                          70 
+    39 Can_not_overfill[Angola3]
+                    NU            70                          70           -20 
+    40 Can_not_overfill[Namibia1]
+                    NU            70                          70           -10 
+    41 Can_not_overfill[Namibia2]
+                    B          42.75                          70 
+    42 Can_not_overfill[Namibia3]
+                    NU            70                          70           -10 
+    43 Can_not_overfill[SouthAfrica1]
+                    B          27.75                          70 
+    44 Can_not_overfill[SouthAfrica2]
+                    B          24.75                          70 
+    45 Need_to_reach_final_destination
+                    NL       10066.7       10066.7                           9 
+    46 TotalCost    B        84572.7                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fill[Algeria1]
+                    NL             0             0                          10 
+     2 fill[Algeria2]
+                    B             35             0               
+     3 fill[Algeria3]
+                    B          66.25             0               
+     4 fill[Algeria4]
+                    B          48.75             0               
+     5 fill[Algeria5]
+                    B           21.5             0               
+     6 fill[Algeria6]
+                    B          66.25             0               
+     7 fill[Niger1] B          29.25             0               
+     8 fill[Niger2] B             39             0               
+     9 fill[Nigeria1]
+                    B          16.25             0               
+    10 fill[Nigeria2]
+                    B          66.25             0               
+    11 fill[Cameroon]
+                    B             24             0               
+    12 fill[Gabon]  B          7.175             0               
+    13 fill[Congo1] B          66.25             0               
+    14 fill[Congo2] B          5.825             0               
+    15 fill[Angola1]
+                    B          66.25             0               
+    16 fill[Angola2]
+                    B            6.5             0               
+    17 fill[Angola3]
+                    B          66.25             0               
+    18 fill[Namibia1]
+                    B             24             0               
+    19 fill[Namibia2]
+                    B          11.75             0               
+    20 fill[Namibia3]
+                    B          66.25             0               
+    21 fill[SouthAfrica1]
+                    B           1.25             0               
+    22 fill[SouthAfrica2]
+                    B             21             0               
+    23 fuelAtArrival[Algeria1]
+                    B             46          3.75               
+    24 fuelAtArrival[Algeria2]
+                    B              7          3.75               
+    25 fuelAtArrival[Algeria3]
+                    NL          3.75          3.75                          20 
+    26 fuelAtArrival[Algeria4]
+                    B          21.25          3.75               
+    27 fuelAtArrival[Algeria5]
+                    B           26.5          3.75               
+    28 fuelAtArrival[Algeria6]
+                    NL          3.75          3.75                          10 
+    29 fuelAtArrival[Niger1]
+                    B          40.75          3.75               
+    30 fuelAtArrival[Niger2]
+                    B             31          3.75               
+    31 fuelAtArrival[Nigeria1]
+                    B           26.5          3.75               
+    32 fuelAtArrival[Nigeria2]
+                    NL          3.75          3.75                          20 
+    33 fuelAtArrival[Cameroon]
+                    B             46          3.75               
+    34 fuelAtArrival[Gabon]
+                    B          36.25          3.75               
+    35 fuelAtArrival[Congo1]
+                    NL          3.75          3.75                          50 
+    36 fuelAtArrival[Congo2]
+                    B         31.675          3.75               
+    37 fuelAtArrival[Angola1]
+                    NL          3.75          3.75                          10 
+    38 fuelAtArrival[Angola2]
+                    B             31          3.75               
+    39 fuelAtArrival[Angola3]
+                    NL          3.75          3.75                          10 
+    40 fuelAtArrival[Namibia1]
+                    B             46          3.75               
+    41 fuelAtArrival[Namibia2]
+                    B             31          3.75               
+    42 fuelAtArrival[Namibia3]
+                    NL          3.75          3.75                          20 
+    43 fuelAtArrival[SouthAfrica1]
+                    B           26.5          3.75               
+    44 fuelAtArrival[SouthAfrica2]
+                    NL          3.75          3.75                          20 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-12 on row 45
+        max.rel.err = 9.03e-17 on row 45
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
