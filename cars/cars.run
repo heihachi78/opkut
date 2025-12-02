@@ -1,0 +1,2 @@
+glpsol -m cars.mod -d cars.dat -o cars.out
+glpsol -m cars_imols.mod -o cars_imols.out

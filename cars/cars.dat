@@ -1,0 +1,11 @@
+set cars := Wartburg Lada Fiat Trabant Skoda;
+set days := Monday Tuesday Wednesday Thursday Friday;
+
+param prices :
+            Monday Tuesday Wednesday Thursday Friday :=
+Wartburg     60000   65000     61000    66000  60000
+Lada         50000   55000     63000    60000  52000
+Fiat         30000   32000     33000    30000  27000
+Trabant      70000   65000     77000    85000 100000
+Skoda        65000   70000     75000    90000  70000
+;
