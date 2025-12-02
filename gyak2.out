@@ -1,0 +1,44 @@
+Problem:    gyak2
+Rows:       8
+Columns:    5 (5 integer, 5 binary)
+Non-zeros:  25
+Status:     INTEGER OPTIMAL
+Objective:  Objective = 2 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 hear_all_bands[Haggard]
+                                   2             1               
+     2 hear_all_bands[Stratovarius]
+                                   1             1               
+     3 hear_all_bands[Epica]
+                                   1             1               
+     4 hear_all_bands[Dalriada]
+                                   1             1               
+     5 hear_all_bands[Apocalyptica]
+                                   1             1               
+     6 hear_all_bands[Liva]
+                                   2             1               
+     7 hear_all_bands[Eluveitie]
+                                   1             1               
+     8 Objective                   2                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Go[F1]       *              0             0             1 
+     2 Go[F2]       *              0             0             1 
+     3 Go[F3]       *              1             0             1 
+     4 Go[F4]       *              1             0             1 
+     5 Go[F5]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
