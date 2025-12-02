@@ -1,0 +1,62 @@
+Problem:    tetelsor_generic
+Rows:       10
+Columns:    19 (18 integer, 18 binary)
+Non-zeros:  40
+Status:     INTEGER OPTIMAL
+Objective:  Makespan = 9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 All_subjects_must_be_done_by_at_least_one_person[A]
+                                   1             1               
+     2 All_subjects_must_be_done_by_at_least_one_person[B]
+                                   1             1               
+     3 All_subjects_must_be_done_by_at_least_one_person[C]
+                                   1             1               
+     4 All_subjects_must_be_done_by_at_least_one_person[D]
+                                   1             1               
+     5 All_subjects_must_be_done_by_at_least_one_person[E]
+                                   1             1               
+     6 All_subjects_must_be_done_by_at_least_one_person[F]
+                                   1             1               
+     7 Workload[Anna]
+                                  -1                          -0 
+     8 Workload[Bela]
+                                   0                          -0 
+     9 Workload[Cela]
+                                  -4                          -0 
+    10 Makespan                    9                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 do[Anna,A]   *              1             0             1 
+     2 do[Bela,A]   *              0             0             1 
+     3 do[Cela,A]   *              0             0             1 
+     4 do[Anna,B]   *              0             0             1 
+     5 do[Bela,B]   *              1             0             1 
+     6 do[Cela,B]   *              0             0             1 
+     7 do[Anna,C]   *              1             0             1 
+     8 do[Bela,C]   *              0             0             1 
+     9 do[Cela,C]   *              0             0             1 
+    10 do[Anna,D]   *              0             0             1 
+    11 do[Bela,D]   *              0             0             1 
+    12 do[Cela,D]   *              1             0             1 
+    13 do[Anna,E]   *              0             0             1 
+    14 do[Bela,E]   *              1             0             1 
+    15 do[Cela,E]   *              0             0             1 
+    16 do[Anna,F]   *              0             0             1 
+    17 do[Bela,F]   *              1             0             1 
+    18 do[Cela,F]   *              0             0             1 
+    19 makespan                    9             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

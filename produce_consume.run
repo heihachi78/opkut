@@ -1,0 +1,1 @@
+glpsol -m produce_consume.m -d produce_consume.dat -o produce_consume.out

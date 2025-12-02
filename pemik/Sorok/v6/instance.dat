@@ -1,0 +1,16 @@
+set Breweries;
+param production_hl{Breweries} >= 0; # l
+
+param price_Ft_p_l{Breweries} >= 0; # Ft/l
+set Universities;
+param demand_l{Universities} >= 0; # l 
+param distance_km{Breweries,Universities} >= 0; # km
+param likes{Universities, Breweries} binary; # -
+
+set Cars;
+param capacity_l{Cars} >= 0; # l
+param weight_kg{Cars} >= 0; # kg
+param consumption_l_p_100km_p_kg{Cars} >= 0; # l / 100km / kg
+
+param beer_density_g_p_cm3; # g / cm^3
+param fuel_price_Ft_p_l >= 0; # Ft/l

@@ -1,0 +1,81 @@
+Problem:    produce_consume
+Rows:       9
+Columns:    16
+Non-zeros:  48
+Status:     OPTIMAL
+Objective:  Objective = 80 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 supply_limit[P1]
+                    NU            10                          10            -3 
+     2 supply_limit[P2]
+                    B             25                          25 
+     3 supply_limit[P3]
+                    NU            15                          15            -1 
+     4 supply_limit[P4]
+                    NU            10                          10            -2 
+     5 demand_limit[C1]
+                    NS            15            15             =             4 
+     6 demand_limit[C2]
+                    NS            20            20             =             1 
+     7 demand_limit[C3]
+                    NS            10            10             =             2 
+     8 demand_limit[C4]
+                    NS            15            15             =             3 
+     9 Objective    B             80                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fulfill[P1,C1]
+                    B             10             0               
+     2 fulfill[P1,C2]
+                    NL             0             0                           4 
+     3 fulfill[P1,C3]
+                    NL             0             0                           4 
+     4 fulfill[P1,C4]
+                    NL             0             0                           4 
+     5 fulfill[P2,C1]
+                    B              5             0               
+     6 fulfill[P2,C2]
+                    B             20             0               
+     7 fulfill[P2,C3]
+                    NL             0             0                       < eps
+     8 fulfill[P2,C4]
+                    NL             0             0                       < eps
+     9 fulfill[P3,C1]
+                    NL             0             0                       < eps
+    10 fulfill[P3,C2]
+                    NL             0             0                           4 
+    11 fulfill[P3,C3]
+                    B             10             0               
+    12 fulfill[P3,C4]
+                    B              5             0               
+    13 fulfill[P4,C1]
+                    B              0             0               
+    14 fulfill[P4,C2]
+                    NL             0             0                           4 
+    15 fulfill[P4,C3]
+                    NL             0             0                           4 
+    16 fulfill[P4,C4]
+                    B             10             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

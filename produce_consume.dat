@@ -1,0 +1,25 @@
+set Producer := P1 P2 P3 P4;
+
+set Consumer := C1 C2 C3 C4;
+
+param supply :=
+    P1 10
+    P2 25
+    P3 15
+    P4 10
+;
+
+param demand :=
+    C1 15
+    C2 20
+    C3 10
+    C4 15
+;
+
+param cost_to_fulfill :
+            C1 C2 C3 C4 :=
+P1           1  2  3  4
+P2           4  1  2  3
+P3           3  4  1  2
+P4           2  3  4  1
+;

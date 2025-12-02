@@ -1,0 +1,212 @@
+Problem:    tetelsor_generic
+Rows:       26
+Columns:    137 (136 integer, 136 binary)
+Non-zeros:  281
+Status:     INTEGER NON-OPTIMAL
+Objective:  Makespan = 17 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 All_subjects_must_be_done_by_at_least_one_person[F1]
+                                   1             1               
+     2 All_subjects_must_be_done_by_at_least_one_person[F2]
+                                   1             1               
+     3 All_subjects_must_be_done_by_at_least_one_person[F3]
+                                   1             1               
+     4 All_subjects_must_be_done_by_at_least_one_person[F4]
+                                   1             1               
+     5 All_subjects_must_be_done_by_at_least_one_person[F5]
+                                   1             1               
+     6 All_subjects_must_be_done_by_at_least_one_person[F6]
+                                   1             1               
+     7 All_subjects_must_be_done_by_at_least_one_person[F7]
+                                   1             1               
+     8 All_subjects_must_be_done_by_at_least_one_person[F8]
+                                   1             1               
+     9 All_subjects_must_be_done_by_at_least_one_person[F9]
+                                   1             1               
+    10 All_subjects_must_be_done_by_at_least_one_person[F10]
+                                   1             1               
+    11 All_subjects_must_be_done_by_at_least_one_person[F11]
+                                   1             1               
+    12 All_subjects_must_be_done_by_at_least_one_person[F12]
+                                   1             1               
+    13 All_subjects_must_be_done_by_at_least_one_person[F13]
+                                   1             1               
+    14 All_subjects_must_be_done_by_at_least_one_person[F14]
+                                   1             1               
+    15 All_subjects_must_be_done_by_at_least_one_person[F15]
+                                   1             1               
+    16 All_subjects_must_be_done_by_at_least_one_person[F16]
+                                   1             1               
+    17 All_subjects_must_be_done_by_at_least_one_person[F17]
+                                   1             1               
+    18 Workload[Anna]
+                                  -4                          -0 
+    19 Workload[Bela]
+                                  -1                          -0 
+    20 Workload[Cela]
+                                   0                          -0 
+    21 Workload[Dela]
+                                  -4                          -0 
+    22 Workload[Ela]
+                                  -6                          -0 
+    23 Workload[Fela]
+                                  -4                          -0 
+    24 Workload[Gela]
+                                  -6                          -0 
+    25 Workload[Hela]
+                                  -5                          -0 
+    26 Makespan                   17                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 do[Anna,F1]  *              0             0             1 
+     2 do[Bela,F1]  *              0             0             1 
+     3 do[Cela,F1]  *              0             0             1 
+     4 do[Dela,F1]  *              0             0             1 
+     5 do[Ela,F1]   *              0             0             1 
+     6 do[Fela,F1]  *              0             0             1 
+     7 do[Gela,F1]  *              0             0             1 
+     8 do[Hela,F1]  *              1             0             1 
+     9 do[Anna,F2]  *              0             0             1 
+    10 do[Bela,F2]  *              0             0             1 
+    11 do[Cela,F2]  *              0             0             1 
+    12 do[Dela,F2]  *              0             0             1 
+    13 do[Ela,F2]   *              0             0             1 
+    14 do[Fela,F2]  *              1             0             1 
+    15 do[Gela,F2]  *              0             0             1 
+    16 do[Hela,F2]  *              0             0             1 
+    17 do[Anna,F3]  *              0             0             1 
+    18 do[Bela,F3]  *              1             0             1 
+    19 do[Cela,F3]  *              0             0             1 
+    20 do[Dela,F3]  *              0             0             1 
+    21 do[Ela,F3]   *              0             0             1 
+    22 do[Fela,F3]  *              0             0             1 
+    23 do[Gela,F3]  *              0             0             1 
+    24 do[Hela,F3]  *              0             0             1 
+    25 do[Anna,F4]  *              0             0             1 
+    26 do[Bela,F4]  *              0             0             1 
+    27 do[Cela,F4]  *              0             0             1 
+    28 do[Dela,F4]  *              0             0             1 
+    29 do[Ela,F4]   *              0             0             1 
+    30 do[Fela,F4]  *              0             0             1 
+    31 do[Gela,F4]  *              1             0             1 
+    32 do[Hela,F4]  *              0             0             1 
+    33 do[Anna,F5]  *              0             0             1 
+    34 do[Bela,F5]  *              1             0             1 
+    35 do[Cela,F5]  *              0             0             1 
+    36 do[Dela,F5]  *              0             0             1 
+    37 do[Ela,F5]   *              0             0             1 
+    38 do[Fela,F5]  *              0             0             1 
+    39 do[Gela,F5]  *              0             0             1 
+    40 do[Hela,F5]  *              0             0             1 
+    41 do[Anna,F6]  *              0             0             1 
+    42 do[Bela,F6]  *              0             0             1 
+    43 do[Cela,F6]  *              0             0             1 
+    44 do[Dela,F6]  *              0             0             1 
+    45 do[Ela,F6]   *              1             0             1 
+    46 do[Fela,F6]  *              0             0             1 
+    47 do[Gela,F6]  *              0             0             1 
+    48 do[Hela,F6]  *              0             0             1 
+    49 do[Anna,F7]  *              1             0             1 
+    50 do[Bela,F7]  *              0             0             1 
+    51 do[Cela,F7]  *              0             0             1 
+    52 do[Dela,F7]  *              0             0             1 
+    53 do[Ela,F7]   *              0             0             1 
+    54 do[Fela,F7]  *              0             0             1 
+    55 do[Gela,F7]  *              0             0             1 
+    56 do[Hela,F7]  *              0             0             1 
+    57 do[Anna,F8]  *              0             0             1 
+    58 do[Bela,F8]  *              0             0             1 
+    59 do[Cela,F8]  *              0             0             1 
+    60 do[Dela,F8]  *              0             0             1 
+    61 do[Ela,F8]   *              0             0             1 
+    62 do[Fela,F8]  *              0             0             1 
+    63 do[Gela,F8]  *              0             0             1 
+    64 do[Hela,F8]  *              1             0             1 
+    65 do[Anna,F9]  *              0             0             1 
+    66 do[Bela,F9]  *              0             0             1 
+    67 do[Cela,F9]  *              0             0             1 
+    68 do[Dela,F9]  *              0             0             1 
+    69 do[Ela,F9]   *              0             0             1 
+    70 do[Fela,F9]  *              0             0             1 
+    71 do[Gela,F9]  *              1             0             1 
+    72 do[Hela,F9]  *              0             0             1 
+    73 do[Anna,F10] *              1             0             1 
+    74 do[Bela,F10] *              0             0             1 
+    75 do[Cela,F10] *              0             0             1 
+    76 do[Dela,F10] *              0             0             1 
+    77 do[Ela,F10]  *              0             0             1 
+    78 do[Fela,F10] *              0             0             1 
+    79 do[Gela,F10] *              0             0             1 
+    80 do[Hela,F10] *              0             0             1 
+    81 do[Anna,F11] *              0             0             1 
+    82 do[Bela,F11] *              0             0             1 
+    83 do[Cela,F11] *              1             0             1 
+    84 do[Dela,F11] *              0             0             1 
+    85 do[Ela,F11]  *              0             0             1 
+    86 do[Fela,F11] *              0             0             1 
+    87 do[Gela,F11] *              0             0             1 
+    88 do[Hela,F11] *              0             0             1 
+    89 do[Anna,F12] *              0             0             1 
+    90 do[Bela,F12] *              0             0             1 
+    91 do[Cela,F12] *              0             0             1 
+    92 do[Dela,F12] *              1             0             1 
+    93 do[Ela,F12]  *              0             0             1 
+    94 do[Fela,F12] *              0             0             1 
+    95 do[Gela,F12] *              0             0             1 
+    96 do[Hela,F12] *              0             0             1 
+    97 do[Anna,F13] *              0             0             1 
+    98 do[Bela,F13] *              0             0             1 
+    99 do[Cela,F13] *              0             0             1 
+   100 do[Dela,F13] *              0             0             1 
+   101 do[Ela,F13]  *              1             0             1 
+   102 do[Fela,F13] *              0             0             1 
+   103 do[Gela,F13] *              0             0             1 
+   104 do[Hela,F13] *              0             0             1 
+   105 do[Anna,F14] *              0             0             1 
+   106 do[Bela,F14] *              0             0             1 
+   107 do[Cela,F14] *              1             0             1 
+   108 do[Dela,F14] *              0             0             1 
+   109 do[Ela,F14]  *              0             0             1 
+   110 do[Fela,F14] *              0             0             1 
+   111 do[Gela,F14] *              0             0             1 
+   112 do[Hela,F14] *              0             0             1 
+   113 do[Anna,F15] *              0             0             1 
+   114 do[Bela,F15] *              0             0             1 
+   115 do[Cela,F15] *              1             0             1 
+   116 do[Dela,F15] *              0             0             1 
+   117 do[Ela,F15]  *              0             0             1 
+   118 do[Fela,F15] *              0             0             1 
+   119 do[Gela,F15] *              0             0             1 
+   120 do[Hela,F15] *              0             0             1 
+   121 do[Anna,F16] *              0             0             1 
+   122 do[Bela,F16] *              0             0             1 
+   123 do[Cela,F16] *              0             0             1 
+   124 do[Dela,F16] *              1             0             1 
+   125 do[Ela,F16]  *              0             0             1 
+   126 do[Fela,F16] *              0             0             1 
+   127 do[Gela,F16] *              0             0             1 
+   128 do[Hela,F16] *              0             0             1 
+   129 do[Anna,F17] *              0             0             1 
+   130 do[Bela,F17] *              0             0             1 
+   131 do[Cela,F17] *              0             0             1 
+   132 do[Dela,F17] *              0             0             1 
+   133 do[Ela,F17]  *              0             0             1 
+   134 do[Fela,F17] *              1             0             1 
+   135 do[Gela,F17] *              0             0             1 
+   136 do[Hela,F17] *              0             0             1 
+   137 makespan                   17             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

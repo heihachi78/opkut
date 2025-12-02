@@ -1,0 +1,25 @@
+set Termek := Pr1 Pr2 Pr3 Pr4 Pr5 Pr6;
+set Eroforras := Energia Gepido Elomunka;
+
+param Korlat :=
+    Energia 1080
+    Gepido 1050
+    Elomunka 1050
+;
+
+param Nyereseg :=
+    Pr1 5
+    Pr2 6
+    Pr3 7
+    Pr4 5
+    Pr5 6
+    Pr6 7
+;
+
+param Technologia :
+            Pr1 Pr2 Pr3 Pr4 Pr5 Pr6 :=
+Energia       1   2   1   4   1   2
+Gepido        2   3   2   1   1   3
+Elomunka      2   1   3   1   3   2
+;
+end;

@@ -1,0 +1,57 @@
+Problem:    generic
+Rows:       9
+Columns:    16 (16 integer, 16 binary)
+Non-zeros:  48
+Status:     INTEGER OPTIMAL
+Objective:  Objective = 4 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 task_one_to_one[F1]
+                                   1             1             = 
+     2 task_one_to_one[F2]
+                                   1             1             = 
+     3 task_one_to_one[F3]
+                                   1             1             = 
+     4 task_one_to_one[F4]
+                                   1             1             = 
+     5 people_one_to_one[P1]
+                                   1             1             = 
+     6 people_one_to_one[P2]
+                                   1             1             = 
+     7 people_one_to_one[P3]
+                                   1             1             = 
+     8 people_one_to_one[P4]
+                                   1             1             = 
+     9 Objective                   4                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 do[F1,P1]    *              1             0             1 
+     2 do[F1,P2]    *              0             0             1 
+     3 do[F1,P3]    *              0             0             1 
+     4 do[F1,P4]    *              0             0             1 
+     5 do[F2,P1]    *              0             0             1 
+     6 do[F2,P2]    *              1             0             1 
+     7 do[F2,P3]    *              0             0             1 
+     8 do[F2,P4]    *              0             0             1 
+     9 do[F3,P1]    *              0             0             1 
+    10 do[F3,P2]    *              0             0             1 
+    11 do[F3,P3]    *              1             0             1 
+    12 do[F3,P4]    *              0             0             1 
+    13 do[F4,P1]    *              0             0             1 
+    14 do[F4,P2]    *              0             0             1 
+    15 do[F4,P3]    *              0             0             1 
+    16 do[F4,P4]    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

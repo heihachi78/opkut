@@ -1,0 +1,45 @@
+Problem:    gyak1
+Rows:       4
+Columns:    6
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  Objective = 3330 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Eroforras_korlat[Energia]
+                    NU          1080                        1080      0.615385 
+     2 Eroforras_korlat[Gepido]
+                    NU          1050                        1050       1.11538 
+     3 Eroforras_korlat[Elomunka]
+                    NU          1050                        1050       1.42308 
+     4 Objective    B           3330                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Gyart[Pr1]   NL             0             0                   -0.692308 
+     2 Gyart[Pr2]   B            240             0               
+     3 Gyart[Pr3]   NL             0             0                   -0.115385 
+     4 Gyart[Pr4]   B             90             0               
+     5 Gyart[Pr5]   B            240             0               
+     6 Gyart[Pr6]   NL             0             0                   -0.423077 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-16 on column 1
+        max.rel.err = 7.17e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

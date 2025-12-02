@@ -1,0 +1,62 @@
+Problem:    tetelsor
+Rows:       10
+Columns:    19 (18 integer, 18 binary)
+Non-zeros:  40
+Status:     INTEGER OPTIMAL
+Objective:  Hatarido = 9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 A_t_meg_kell_csinalni
+                                   1             1             = 
+     2 B_t_meg_kell_csinalni
+                                   1             1             = 
+     3 C_t_meg_kell_csinalni
+                                   1             1             = 
+     4 D_t_meg_kell_csinalni
+                                   1             1             = 
+     5 E_t_meg_kell_csinalni
+                                   1             1             = 
+     6 F_t_meg_kell_csinalni
+                                   1             1             = 
+     7 Anna_mennyit_dolgozik
+                                   0            -0               
+     8 Bela_mennyit_dolgozik
+                                   0            -0               
+     9 Cela_mennyit_dolgozik
+                                   4            -0               
+    10 Hatarido                    9                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Anna_A       *              1             0             1 
+     2 Anna_B       *              0             0             1 
+     3 Anna_C       *              0             0             1 
+     4 Anna_D       *              1             0             1 
+     5 Anna_E       *              0             0             1 
+     6 Anna_F       *              0             0             1 
+     7 Bela_A       *              0             0             1 
+     8 Bela_B       *              1             0             1 
+     9 Bela_C       *              0             0             1 
+    10 Bela_D       *              0             0             1 
+    11 Bela_E       *              1             0             1 
+    12 Bela_F       *              1             0             1 
+    13 Cela_A       *              0             0             1 
+    14 Cela_B       *              0             0             1 
+    15 Cela_C       *              1             0             1 
+    16 Cela_D       *              0             0             1 
+    17 Cela_E       *              0             0             1 
+    18 Cela_F       *              0             0             1 
+    19 legtobbmunka                9             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

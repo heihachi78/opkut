@@ -1,0 +1,9 @@
+set People := Anna Bela Cela;
+set Subjects := A B C D E F;
+
+param worktime : 
+              A B C D E F := 
+        Anna  3 4 5 6 7 5
+        Bela  6 1 9 8 4 4
+        Cela  5 5 5 5 5 5
+;
