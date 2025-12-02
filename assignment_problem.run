@@ -1,0 +1,1 @@
+glpsol -m assignment_problem.mod -d assignment_problem.dat -o assignment_problem.out
