@@ -3,3 +3,12 @@ https://github.com/hegyhati
 https://hegyhati.github.io/IMOLS/pages/gmpl_basics.html
 https://hegyhati.github.io/
 https://hegyhati.github.io/IMOLS/
+
+On Linux:
+sudo apt-get install glpk-utils libglpk-dev glpk-doc
+
+On Mac:
+brew install glpk
+
+On Win:
+who knows?
