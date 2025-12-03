@@ -1,0 +1,1 @@
+glpsol -m book_shelf.mod -d book_shelf.dat -o book_shelf.out
