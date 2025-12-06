@@ -1,0 +1,105 @@
+Problem:    J0P7MF_1
+Rows:       15
+Columns:    27 (27 integer, 27 binary)
+Non-zeros:  61
+Status:     INTEGER OPTIMAL
+Objective:  bevetel = 519 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 egy_konyvet_csak_egyszer_adjak_el[K1]
+                                   1                           1 
+     2 egy_konyvet_csak_egyszer_adjak_el[K2]
+                                   1                           1 
+     3 egy_konyvet_csak_egyszer_adjak_el[K3]
+                                   1                           1 
+     4 egy_konyvet_csak_egyszer_adjak_el[K4]
+                                   1                           1 
+     5 egy_konyvet_csak_egyszer_adjak_el[K5]
+                                   1                           1 
+     6 keretet_be_kell_tartani[I1]
+                                  60                         125 
+     7 keretet_be_kell_tartani[I2]
+                                   0                          75 
+     8 keretet_be_kell_tartani[I3]
+                                   0                         105 
+     9 keretet_be_kell_tartani[I4]
+                                 175                         175 
+    10 keretet_be_kell_tartani[I5]
+                                 284                         284 
+    11 mindent_visz[I3,K1]
+                                   0            -0             = 
+    12 mindent_visz[I3,K4]
+                                   0            -0             = 
+    13 mindent_visz[I5,K3]
+                                   0            -0             = 
+    14 mindent_visz[I5,K5]
+                                   0            -0             = 
+    15 bevetel                   519                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Megvasarol[I1,K1]
+                    *              0             0             1 
+     2 Megvasarol[I2,K1]
+                    *              0             0             1 
+     3 Megvasarol[I3,K1]
+                    *              0             0             1 
+     4 Megvasarol[I4,K1]
+                    *              1             0             1 
+     5 Megvasarol[I5,K1]
+                    *              0             0             1 
+     6 Megvasarol[I1,K2]
+                    *              0             0             1 
+     7 Megvasarol[I2,K2]
+                    *              0             0             1 
+     8 Megvasarol[I3,K2]
+                    *              0             0             1 
+     9 Megvasarol[I4,K2]
+                    *              1             0             1 
+    10 Megvasarol[I5,K2]
+                    *              0             0             1 
+    11 Megvasarol[I1,K3]
+                    *              0             0             1 
+    12 Megvasarol[I2,K3]
+                    *              0             0             1 
+    13 Megvasarol[I3,K3]
+                    *              0             0             1 
+    14 Megvasarol[I4,K3]
+                    *              0             0             1 
+    15 Megvasarol[I5,K3]
+                    *              1             0             1 
+    16 Megvasarol[I1,K4]
+                    *              1             0             1 
+    17 Megvasarol[I2,K4]
+                    *              0             0             1 
+    18 Megvasarol[I3,K4]
+                    *              0             0             1 
+    19 Megvasarol[I4,K4]
+                    *              0             0             1 
+    20 Megvasarol[I5,K4]
+                    *              0             0             1 
+    21 Megvasarol[I1,K5]
+                    *              0             0             1 
+    22 Megvasarol[I2,K5]
+                    *              0             0             1 
+    23 Megvasarol[I3,K5]
+                    *              0             0             1 
+    24 Megvasarol[I4,K5]
+                    *              0             0             1 
+    25 Megvasarol[I5,K5]
+                    *              1             0             1 
+    26 Vasarol[I3]  *              0             0             1 
+    27 Vasarol[I5]  *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
