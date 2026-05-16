@@ -1,0 +1,705 @@
+Problem:    tsp
+Rows:       228
+Columns:    225 (225 integer, 210 binary)
+Non-zeros:  1191
+Status:     INTEGER OPTIMAL
+Objective:  TeljesTavolsag = 370 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TeljesTavolsag
+                                 370                             
+     2 CsakEgyKimeno[1]
+                                   1             1             = 
+     3 CsakEgyKimeno[2]
+                                   1             1             = 
+     4 CsakEgyKimeno[3]
+                                   1             1             = 
+     5 CsakEgyKimeno[4]
+                                   1             1             = 
+     6 CsakEgyKimeno[5]
+                                   1             1             = 
+     7 CsakEgyKimeno[6]
+                                   1             1             = 
+     8 CsakEgyKimeno[7]
+                                   1             1             = 
+     9 CsakEgyKimeno[8]
+                                   1             1             = 
+    10 CsakEgyKimeno[9]
+                                   1             1             = 
+    11 CsakEgyKimeno[10]
+                                   1             1             = 
+    12 CsakEgyKimeno[11]
+                                   1             1             = 
+    13 CsakEgyKimeno[12]
+                                   1             1             = 
+    14 CsakEgyKimeno[13]
+                                   1             1             = 
+    15 CsakEgyKimeno[14]
+                                   1             1             = 
+    16 CsakEgyKimeno[15]
+                                   1             1             = 
+    17 CsakEgyBejovo[1]
+                                   1             1             = 
+    18 CsakEgyBejovo[2]
+                                   1             1             = 
+    19 CsakEgyBejovo[3]
+                                   1             1             = 
+    20 CsakEgyBejovo[4]
+                                   1             1             = 
+    21 CsakEgyBejovo[5]
+                                   1             1             = 
+    22 CsakEgyBejovo[6]
+                                   1             1             = 
+    23 CsakEgyBejovo[7]
+                                   1             1             = 
+    24 CsakEgyBejovo[8]
+                                   1             1             = 
+    25 CsakEgyBejovo[9]
+                                   1             1             = 
+    26 CsakEgyBejovo[10]
+                                   1             1             = 
+    27 CsakEgyBejovo[11]
+                                   1             1             = 
+    28 CsakEgyBejovo[12]
+                                   1             1             = 
+    29 CsakEgyBejovo[13]
+                                   1             1             = 
+    30 CsakEgyBejovo[14]
+                                   1             1             = 
+    31 CsakEgyBejovo[15]
+                                   1             1             = 
+    32 KezdoVarosFixalasa
+                                   1             1             = 
+    33 NemKezdoVarosSorrendAlso[2]
+                                  15             2               
+    34 NemKezdoVarosSorrendAlso[3]
+                                   9             2               
+    35 NemKezdoVarosSorrendAlso[4]
+                                  10             2               
+    36 NemKezdoVarosSorrendAlso[5]
+                                   6             2               
+    37 NemKezdoVarosSorrendAlso[6]
+                                   5             2               
+    38 NemKezdoVarosSorrendAlso[7]
+                                   2             2               
+    39 NemKezdoVarosSorrendAlso[8]
+                                  14             2               
+    40 NemKezdoVarosSorrendAlso[9]
+                                   8             2               
+    41 NemKezdoVarosSorrendAlso[10]
+                                   3             2               
+    42 NemKezdoVarosSorrendAlso[11]
+                                   4             2               
+    43 NemKezdoVarosSorrendAlso[12]
+                                  13             2               
+    44 NemKezdoVarosSorrendAlso[13]
+                                   7             2               
+    45 NemKezdoVarosSorrendAlso[14]
+                                  11             2               
+    46 NemKezdoVarosSorrendAlso[15]
+                                  12             2               
+    47 NincsReszkor[2,3]
+                                   6                          14 
+    48 NincsReszkor[2,4]
+                                   5                          14 
+    49 NincsReszkor[2,5]
+                                   9                          14 
+    50 NincsReszkor[2,6]
+                                  10                          14 
+    51 NincsReszkor[2,7]
+                                  13                          14 
+    52 NincsReszkor[2,8]
+                                   1                          14 
+    53 NincsReszkor[2,9]
+                                   7                          14 
+    54 NincsReszkor[2,10]
+                                  12                          14 
+    55 NincsReszkor[2,11]
+                                  11                          14 
+    56 NincsReszkor[2,12]
+                                   2                          14 
+    57 NincsReszkor[2,13]
+                                   8                          14 
+    58 NincsReszkor[2,14]
+                                   4                          14 
+    59 NincsReszkor[2,15]
+                                   3                          14 
+    60 NincsReszkor[3,2]
+                                  -6                          14 
+    61 NincsReszkor[3,4]
+                                  14                          14 
+    62 NincsReszkor[3,5]
+                                   3                          14 
+    63 NincsReszkor[3,6]
+                                   4                          14 
+    64 NincsReszkor[3,7]
+                                   7                          14 
+    65 NincsReszkor[3,8]
+                                  -5                          14 
+    66 NincsReszkor[3,9]
+                                   1                          14 
+    67 NincsReszkor[3,10]
+                                   6                          14 
+    68 NincsReszkor[3,11]
+                                   5                          14 
+    69 NincsReszkor[3,12]
+                                  -4                          14 
+    70 NincsReszkor[3,13]
+                                   2                          14 
+    71 NincsReszkor[3,14]
+                                  -2                          14 
+    72 NincsReszkor[3,15]
+                                  -3                          14 
+    73 NincsReszkor[4,2]
+                                  -5                          14 
+    74 NincsReszkor[4,3]
+                                   1                          14 
+    75 NincsReszkor[4,5]
+                                   4                          14 
+    76 NincsReszkor[4,6]
+                                   5                          14 
+    77 NincsReszkor[4,7]
+                                   8                          14 
+    78 NincsReszkor[4,8]
+                                  -4                          14 
+    79 NincsReszkor[4,9]
+                                   2                          14 
+    80 NincsReszkor[4,10]
+                                   7                          14 
+    81 NincsReszkor[4,11]
+                                   6                          14 
+    82 NincsReszkor[4,12]
+                                  -3                          14 
+    83 NincsReszkor[4,13]
+                                   3                          14 
+    84 NincsReszkor[4,14]
+                                  14                          14 
+    85 NincsReszkor[4,15]
+                                  -2                          14 
+    86 NincsReszkor[5,2]
+                                  -9                          14 
+    87 NincsReszkor[5,3]
+                                  -3                          14 
+    88 NincsReszkor[5,4]
+                                  -4                          14 
+    89 NincsReszkor[5,6]
+                                   1                          14 
+    90 NincsReszkor[5,7]
+                                   4                          14 
+    91 NincsReszkor[5,8]
+                                  -8                          14 
+    92 NincsReszkor[5,9]
+                                  -2                          14 
+    93 NincsReszkor[5,10]
+                                   3                          14 
+    94 NincsReszkor[5,11]
+                                   2                          14 
+    95 NincsReszkor[5,12]
+                                  -7                          14 
+    96 NincsReszkor[5,13]
+                                  14                          14 
+    97 NincsReszkor[5,14]
+                                  -5                          14 
+    98 NincsReszkor[5,15]
+                                  -6                          14 
+    99 NincsReszkor[6,2]
+                                 -10                          14 
+   100 NincsReszkor[6,3]
+                                  -4                          14 
+   101 NincsReszkor[6,4]
+                                  -5                          14 
+   102 NincsReszkor[6,5]
+                                  14                          14 
+   103 NincsReszkor[6,7]
+                                   3                          14 
+   104 NincsReszkor[6,8]
+                                  -9                          14 
+   105 NincsReszkor[6,9]
+                                  -3                          14 
+   106 NincsReszkor[6,10]
+                                   2                          14 
+   107 NincsReszkor[6,11]
+                                   1                          14 
+   108 NincsReszkor[6,12]
+                                  -8                          14 
+   109 NincsReszkor[6,13]
+                                  -2                          14 
+   110 NincsReszkor[6,14]
+                                  -6                          14 
+   111 NincsReszkor[6,15]
+                                  -7                          14 
+   112 NincsReszkor[7,2]
+                                 -13                          14 
+   113 NincsReszkor[7,3]
+                                  -7                          14 
+   114 NincsReszkor[7,4]
+                                  -8                          14 
+   115 NincsReszkor[7,5]
+                                  -4                          14 
+   116 NincsReszkor[7,6]
+                                  -3                          14 
+   117 NincsReszkor[7,8]
+                                 -12                          14 
+   118 NincsReszkor[7,9]
+                                  -6                          14 
+   119 NincsReszkor[7,10]
+                                  14                          14 
+   120 NincsReszkor[7,11]
+                                  -2                          14 
+   121 NincsReszkor[7,12]
+                                 -11                          14 
+   122 NincsReszkor[7,13]
+                                  -5                          14 
+   123 NincsReszkor[7,14]
+                                  -9                          14 
+   124 NincsReszkor[7,15]
+                                 -10                          14 
+   125 NincsReszkor[8,2]
+                                  14                          14 
+   126 NincsReszkor[8,3]
+                                   5                          14 
+   127 NincsReszkor[8,4]
+                                   4                          14 
+   128 NincsReszkor[8,5]
+                                   8                          14 
+   129 NincsReszkor[8,6]
+                                   9                          14 
+   130 NincsReszkor[8,7]
+                                  12                          14 
+   131 NincsReszkor[8,9]
+                                   6                          14 
+   132 NincsReszkor[8,10]
+                                  11                          14 
+   133 NincsReszkor[8,11]
+                                  10                          14 
+   134 NincsReszkor[8,12]
+                                   1                          14 
+   135 NincsReszkor[8,13]
+                                   7                          14 
+   136 NincsReszkor[8,14]
+                                   3                          14 
+   137 NincsReszkor[8,15]
+                                   2                          14 
+   138 NincsReszkor[9,2]
+                                  -7                          14 
+   139 NincsReszkor[9,3]
+                                  14                          14 
+   140 NincsReszkor[9,4]
+                                  -2                          14 
+   141 NincsReszkor[9,5]
+                                   2                          14 
+   142 NincsReszkor[9,6]
+                                   3                          14 
+   143 NincsReszkor[9,7]
+                                   6                          14 
+   144 NincsReszkor[9,8]
+                                  -6                          14 
+   145 NincsReszkor[9,10]
+                                   5                          14 
+   146 NincsReszkor[9,11]
+                                   4                          14 
+   147 NincsReszkor[9,12]
+                                  -5                          14 
+   148 NincsReszkor[9,13]
+                                   1                          14 
+   149 NincsReszkor[9,14]
+                                  -3                          14 
+   150 NincsReszkor[9,15]
+                                  -4                          14 
+   151 NincsReszkor[10,2]
+                                 -12                          14 
+   152 NincsReszkor[10,3]
+                                  -6                          14 
+   153 NincsReszkor[10,4]
+                                  -7                          14 
+   154 NincsReszkor[10,5]
+                                  -3                          14 
+   155 NincsReszkor[10,6]
+                                  -2                          14 
+   156 NincsReszkor[10,7]
+                                   1                          14 
+   157 NincsReszkor[10,8]
+                                 -11                          14 
+   158 NincsReszkor[10,9]
+                                  -5                          14 
+   159 NincsReszkor[10,11]
+                                  14                          14 
+   160 NincsReszkor[10,12]
+                                 -10                          14 
+   161 NincsReszkor[10,13]
+                                  -4                          14 
+   162 NincsReszkor[10,14]
+                                  -8                          14 
+   163 NincsReszkor[10,15]
+                                  -9                          14 
+   164 NincsReszkor[11,2]
+                                 -11                          14 
+   165 NincsReszkor[11,3]
+                                  -5                          14 
+   166 NincsReszkor[11,4]
+                                  -6                          14 
+   167 NincsReszkor[11,5]
+                                  -2                          14 
+   168 NincsReszkor[11,6]
+                                  14                          14 
+   169 NincsReszkor[11,7]
+                                   2                          14 
+   170 NincsReszkor[11,8]
+                                 -10                          14 
+   171 NincsReszkor[11,9]
+                                  -4                          14 
+   172 NincsReszkor[11,10]
+                                   1                          14 
+   173 NincsReszkor[11,12]
+                                  -9                          14 
+   174 NincsReszkor[11,13]
+                                  -3                          14 
+   175 NincsReszkor[11,14]
+                                  -7                          14 
+   176 NincsReszkor[11,15]
+                                  -8                          14 
+   177 NincsReszkor[12,2]
+                                  -2                          14 
+   178 NincsReszkor[12,3]
+                                   4                          14 
+   179 NincsReszkor[12,4]
+                                   3                          14 
+   180 NincsReszkor[12,5]
+                                   7                          14 
+   181 NincsReszkor[12,6]
+                                   8                          14 
+   182 NincsReszkor[12,7]
+                                  11                          14 
+   183 NincsReszkor[12,8]
+                                  14                          14 
+   184 NincsReszkor[12,9]
+                                   5                          14 
+   185 NincsReszkor[12,10]
+                                  10                          14 
+   186 NincsReszkor[12,11]
+                                   9                          14 
+   187 NincsReszkor[12,13]
+                                   6                          14 
+   188 NincsReszkor[12,14]
+                                   2                          14 
+   189 NincsReszkor[12,15]
+                                   1                          14 
+   190 NincsReszkor[13,2]
+                                  -8                          14 
+   191 NincsReszkor[13,3]
+                                  -2                          14 
+   192 NincsReszkor[13,4]
+                                  -3                          14 
+   193 NincsReszkor[13,5]
+                                   1                          14 
+   194 NincsReszkor[13,6]
+                                   2                          14 
+   195 NincsReszkor[13,7]
+                                   5                          14 
+   196 NincsReszkor[13,8]
+                                  -7                          14 
+   197 NincsReszkor[13,9]
+                                  14                          14 
+   198 NincsReszkor[13,10]
+                                   4                          14 
+   199 NincsReszkor[13,11]
+                                   3                          14 
+   200 NincsReszkor[13,12]
+                                  -6                          14 
+   201 NincsReszkor[13,14]
+                                  -4                          14 
+   202 NincsReszkor[13,15]
+                                  -5                          14 
+   203 NincsReszkor[14,2]
+                                  -4                          14 
+   204 NincsReszkor[14,3]
+                                   2                          14 
+   205 NincsReszkor[14,4]
+                                   1                          14 
+   206 NincsReszkor[14,5]
+                                   5                          14 
+   207 NincsReszkor[14,6]
+                                   6                          14 
+   208 NincsReszkor[14,7]
+                                   9                          14 
+   209 NincsReszkor[14,8]
+                                  -3                          14 
+   210 NincsReszkor[14,9]
+                                   3                          14 
+   211 NincsReszkor[14,10]
+                                   8                          14 
+   212 NincsReszkor[14,11]
+                                   7                          14 
+   213 NincsReszkor[14,12]
+                                  -2                          14 
+   214 NincsReszkor[14,13]
+                                   4                          14 
+   215 NincsReszkor[14,15]
+                                  14                          14 
+   216 NincsReszkor[15,2]
+                                  -3                          14 
+   217 NincsReszkor[15,3]
+                                   3                          14 
+   218 NincsReszkor[15,4]
+                                   2                          14 
+   219 NincsReszkor[15,5]
+                                   6                          14 
+   220 NincsReszkor[15,6]
+                                   7                          14 
+   221 NincsReszkor[15,7]
+                                  10                          14 
+   222 NincsReszkor[15,8]
+                                  -2                          14 
+   223 NincsReszkor[15,9]
+                                   4                          14 
+   224 NincsReszkor[15,10]
+                                   9                          14 
+   225 NincsReszkor[15,11]
+                                   8                          14 
+   226 NincsReszkor[15,12]
+                                  14                          14 
+   227 NincsReszkor[15,13]
+                                   5                          14 
+   228 NincsReszkor[15,14]
+                                   1                          14 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,2]       *              0             0             1 
+     2 x[1,3]       *              0             0             1 
+     3 x[1,4]       *              0             0             1 
+     4 x[1,5]       *              0             0             1 
+     5 x[1,6]       *              0             0             1 
+     6 x[1,7]       *              1             0             1 
+     7 x[1,8]       *              0             0             1 
+     8 x[1,9]       *              0             0             1 
+     9 x[1,10]      *              0             0             1 
+    10 x[1,11]      *              0             0             1 
+    11 x[1,12]      *              0             0             1 
+    12 x[1,13]      *              0             0             1 
+    13 x[1,14]      *              0             0             1 
+    14 x[1,15]      *              0             0             1 
+    15 x[2,1]       *              1             0             1 
+    16 x[2,3]       *              0             0             1 
+    17 x[2,4]       *              0             0             1 
+    18 x[2,5]       *              0             0             1 
+    19 x[2,6]       *              0             0             1 
+    20 x[2,7]       *              0             0             1 
+    21 x[2,8]       *              0             0             1 
+    22 x[2,9]       *              0             0             1 
+    23 x[2,10]      *              0             0             1 
+    24 x[2,11]      *              0             0             1 
+    25 x[2,12]      *              0             0             1 
+    26 x[2,13]      *              0             0             1 
+    27 x[2,14]      *              0             0             1 
+    28 x[2,15]      *              0             0             1 
+    29 x[3,1]       *              0             0             1 
+    30 x[3,2]       *              0             0             1 
+    31 x[3,4]       *              1             0             1 
+    32 x[3,5]       *              0             0             1 
+    33 x[3,6]       *              0             0             1 
+    34 x[3,7]       *              0             0             1 
+    35 x[3,8]       *              0             0             1 
+    36 x[3,9]       *              0             0             1 
+    37 x[3,10]      *              0             0             1 
+    38 x[3,11]      *              0             0             1 
+    39 x[3,12]      *              0             0             1 
+    40 x[3,13]      *              0             0             1 
+    41 x[3,14]      *              0             0             1 
+    42 x[3,15]      *              0             0             1 
+    43 x[4,1]       *              0             0             1 
+    44 x[4,2]       *              0             0             1 
+    45 x[4,3]       *              0             0             1 
+    46 x[4,5]       *              0             0             1 
+    47 x[4,6]       *              0             0             1 
+    48 x[4,7]       *              0             0             1 
+    49 x[4,8]       *              0             0             1 
+    50 x[4,9]       *              0             0             1 
+    51 x[4,10]      *              0             0             1 
+    52 x[4,11]      *              0             0             1 
+    53 x[4,12]      *              0             0             1 
+    54 x[4,13]      *              0             0             1 
+    55 x[4,14]      *              1             0             1 
+    56 x[4,15]      *              0             0             1 
+    57 x[5,1]       *              0             0             1 
+    58 x[5,2]       *              0             0             1 
+    59 x[5,3]       *              0             0             1 
+    60 x[5,4]       *              0             0             1 
+    61 x[5,6]       *              0             0             1 
+    62 x[5,7]       *              0             0             1 
+    63 x[5,8]       *              0             0             1 
+    64 x[5,9]       *              0             0             1 
+    65 x[5,10]      *              0             0             1 
+    66 x[5,11]      *              0             0             1 
+    67 x[5,12]      *              0             0             1 
+    68 x[5,13]      *              1             0             1 
+    69 x[5,14]      *              0             0             1 
+    70 x[5,15]      *              0             0             1 
+    71 x[6,1]       *              0             0             1 
+    72 x[6,2]       *              0             0             1 
+    73 x[6,3]       *              0             0             1 
+    74 x[6,4]       *              0             0             1 
+    75 x[6,5]       *              1             0             1 
+    76 x[6,7]       *              0             0             1 
+    77 x[6,8]       *              0             0             1 
+    78 x[6,9]       *              0             0             1 
+    79 x[6,10]      *              0             0             1 
+    80 x[6,11]      *              0             0             1 
+    81 x[6,12]      *              0             0             1 
+    82 x[6,13]      *              0             0             1 
+    83 x[6,14]      *              0             0             1 
+    84 x[6,15]      *              0             0             1 
+    85 x[7,1]       *              0             0             1 
+    86 x[7,2]       *              0             0             1 
+    87 x[7,3]       *              0             0             1 
+    88 x[7,4]       *              0             0             1 
+    89 x[7,5]       *              0             0             1 
+    90 x[7,6]       *              0             0             1 
+    91 x[7,8]       *              0             0             1 
+    92 x[7,9]       *              0             0             1 
+    93 x[7,10]      *              1             0             1 
+    94 x[7,11]      *              0             0             1 
+    95 x[7,12]      *              0             0             1 
+    96 x[7,13]      *              0             0             1 
+    97 x[7,14]      *              0             0             1 
+    98 x[7,15]      *              0             0             1 
+    99 x[8,1]       *              0             0             1 
+   100 x[8,2]       *              1             0             1 
+   101 x[8,3]       *              0             0             1 
+   102 x[8,4]       *              0             0             1 
+   103 x[8,5]       *              0             0             1 
+   104 x[8,6]       *              0             0             1 
+   105 x[8,7]       *              0             0             1 
+   106 x[8,9]       *              0             0             1 
+   107 x[8,10]      *              0             0             1 
+   108 x[8,11]      *              0             0             1 
+   109 x[8,12]      *              0             0             1 
+   110 x[8,13]      *              0             0             1 
+   111 x[8,14]      *              0             0             1 
+   112 x[8,15]      *              0             0             1 
+   113 x[9,1]       *              0             0             1 
+   114 x[9,2]       *              0             0             1 
+   115 x[9,3]       *              1             0             1 
+   116 x[9,4]       *              0             0             1 
+   117 x[9,5]       *              0             0             1 
+   118 x[9,6]       *              0             0             1 
+   119 x[9,7]       *              0             0             1 
+   120 x[9,8]       *              0             0             1 
+   121 x[9,10]      *              0             0             1 
+   122 x[9,11]      *              0             0             1 
+   123 x[9,12]      *              0             0             1 
+   124 x[9,13]      *              0             0             1 
+   125 x[9,14]      *              0             0             1 
+   126 x[9,15]      *              0             0             1 
+   127 x[10,1]      *              0             0             1 
+   128 x[10,2]      *              0             0             1 
+   129 x[10,3]      *              0             0             1 
+   130 x[10,4]      *              0             0             1 
+   131 x[10,5]      *              0             0             1 
+   132 x[10,6]      *              0             0             1 
+   133 x[10,7]      *              0             0             1 
+   134 x[10,8]      *              0             0             1 
+   135 x[10,9]      *              0             0             1 
+   136 x[10,11]     *              1             0             1 
+   137 x[10,12]     *              0             0             1 
+   138 x[10,13]     *              0             0             1 
+   139 x[10,14]     *              0             0             1 
+   140 x[10,15]     *              0             0             1 
+   141 x[11,1]      *              0             0             1 
+   142 x[11,2]      *              0             0             1 
+   143 x[11,3]      *              0             0             1 
+   144 x[11,4]      *              0             0             1 
+   145 x[11,5]      *              0             0             1 
+   146 x[11,6]      *              1             0             1 
+   147 x[11,7]      *              0             0             1 
+   148 x[11,8]      *              0             0             1 
+   149 x[11,9]      *              0             0             1 
+   150 x[11,10]     *              0             0             1 
+   151 x[11,12]     *              0             0             1 
+   152 x[11,13]     *              0             0             1 
+   153 x[11,14]     *              0             0             1 
+   154 x[11,15]     *              0             0             1 
+   155 x[12,1]      *              0             0             1 
+   156 x[12,2]      *              0             0             1 
+   157 x[12,3]      *              0             0             1 
+   158 x[12,4]      *              0             0             1 
+   159 x[12,5]      *              0             0             1 
+   160 x[12,6]      *              0             0             1 
+   161 x[12,7]      *              0             0             1 
+   162 x[12,8]      *              1             0             1 
+   163 x[12,9]      *              0             0             1 
+   164 x[12,10]     *              0             0             1 
+   165 x[12,11]     *              0             0             1 
+   166 x[12,13]     *              0             0             1 
+   167 x[12,14]     *              0             0             1 
+   168 x[12,15]     *              0             0             1 
+   169 x[13,1]      *              0             0             1 
+   170 x[13,2]      *              0             0             1 
+   171 x[13,3]      *              0             0             1 
+   172 x[13,4]      *              0             0             1 
+   173 x[13,5]      *              0             0             1 
+   174 x[13,6]      *              0             0             1 
+   175 x[13,7]      *              0             0             1 
+   176 x[13,8]      *              0             0             1 
+   177 x[13,9]      *              1             0             1 
+   178 x[13,10]     *              0             0             1 
+   179 x[13,11]     *              0             0             1 
+   180 x[13,12]     *              0             0             1 
+   181 x[13,14]     *              0             0             1 
+   182 x[13,15]     *              0             0             1 
+   183 x[14,1]      *              0             0             1 
+   184 x[14,2]      *              0             0             1 
+   185 x[14,3]      *              0             0             1 
+   186 x[14,4]      *              0             0             1 
+   187 x[14,5]      *              0             0             1 
+   188 x[14,6]      *              0             0             1 
+   189 x[14,7]      *              0             0             1 
+   190 x[14,8]      *              0             0             1 
+   191 x[14,9]      *              0             0             1 
+   192 x[14,10]     *              0             0             1 
+   193 x[14,11]     *              0             0             1 
+   194 x[14,12]     *              0             0             1 
+   195 x[14,13]     *              0             0             1 
+   196 x[14,15]     *              1             0             1 
+   197 x[15,1]      *              0             0             1 
+   198 x[15,2]      *              0             0             1 
+   199 x[15,3]      *              0             0             1 
+   200 x[15,4]      *              0             0             1 
+   201 x[15,5]      *              0             0             1 
+   202 x[15,6]      *              0             0             1 
+   203 x[15,7]      *              0             0             1 
+   204 x[15,8]      *              0             0             1 
+   205 x[15,9]      *              0             0             1 
+   206 x[15,10]     *              0             0             1 
+   207 x[15,11]     *              0             0             1 
+   208 x[15,12]     *              1             0             1 
+   209 x[15,13]     *              0             0             1 
+   210 x[15,14]     *              0             0             1 
+   211 sorrend[1]   *              1             1            15 
+   212 sorrend[2]   *             15             1            15 
+   213 sorrend[3]   *              9             1            15 
+   214 sorrend[4]   *             10             1            15 
+   215 sorrend[5]   *              6             1            15 
+   216 sorrend[6]   *              5             1            15 
+   217 sorrend[7]   *              2             1            15 
+   218 sorrend[8]   *             14             1            15 
+   219 sorrend[9]   *              8             1            15 
+   220 sorrend[10]  *              3             1            15 
+   221 sorrend[11]  *              4             1            15 
+   222 sorrend[12]  *             13             1            15 
+   223 sorrend[13]  *              7             1            15 
+   224 sorrend[14]  *             11             1            15 
+   225 sorrend[15]  *             12             1            15 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

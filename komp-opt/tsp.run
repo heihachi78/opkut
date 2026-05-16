@@ -1,0 +1,1 @@
+glpsol -m tsp.mod -d tsp3.dat -o tsp.out
