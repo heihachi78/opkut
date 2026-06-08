@@ -1,0 +1,1 @@
+glpsol -m cpm_rov.mod -o cpm_rov.out
